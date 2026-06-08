@@ -48,16 +48,16 @@ export default function Home() {
 
     // Skill dots
     const skillLevels: Record<string, number> = {
-      'WordPress': 2, 'HTML / CSS': 2, 'JavaScript': 2, 'Python': 2,
-      'SQL': 1, 'PHP': 1, 'Git': 2, 'React': 1,
-    }
-    document.querySelectorAll('.skill-item').forEach(item => {
-      const nameEl = item.querySelector('.skill-name')
-      if (!nameEl) return
-      const level = skillLevels[nameEl.textContent?.trim() || ''] || 1
-      const dots = document.createElement('div')
-      dots.className = 'skill-dots'
-      for (let i = 1; i <= 3; i++) {
+  'WordPress': 2, 'HTML / CSS': 3, 'JavaScript': 2, 'TypeScript': 2, 'React': 2, 'Next.js': 2, 'Python': 2, 'FastAPI': 2,
+  'SQL / PostgreSQL': 2, 'PHP': 1,'Git': 2,'Azure': 1,
+}
+            document.querySelectorAll('.skill-item').forEach(item => {
+           const nameEl = item.querySelector('.skill-name')
+            if (!nameEl) return
+         const level = skillLevels[nameEl.textContent?.trim() || ''] || 1
+          const dots = document.createElement('div')
+           dots.className = 'skill-dots'
+           for (let i = 1; i <= 3; i++) {
         const dot = document.createElement('span')
         dot.className = i <= level ? 'dot filled' : 'dot'
         dots.appendChild(dot)

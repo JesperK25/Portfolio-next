@@ -213,20 +213,25 @@ export default function Home() {
         </div>
         <div className="skills-grid fade-in">
           {[
-            { name: 'WordPress', fi: 'Kokemus sivustoista', en: 'Site development experience' },
-            { name: 'HTML / CSS', fi: 'Perusteet & tyyli', en: 'Fundamentals & styling' },
-            { name: 'JavaScript', fi: 'Frontend logiikka', en: 'Frontend logic' },
-            { name: 'Python', fi: 'Scripting & data', en: 'Scripting & data' },
-            { name: 'SQL', fi: 'Tietokantaperusteet', en: 'Database basics' },
-            { name: 'PHP', fi: 'WordPress-kehitys', en: 'WordPress development' },
-            { name: 'Git', fi: 'Versionhallinta', en: 'Version control' },
-            { name: 'React', fi: 'Oppimisvaiheessa', en: 'Currently learning' },
-          ].map((s, i) => (
-            <div className="skill-item" key={i}>
-              <div className="skill-name">{s.name}</div>
-              <div className="skill-level" data-fi={s.fi} data-en={s.en}>{s.fi}</div>
-            </div>
-          ))}
+              { name: 'HTML / CSS', fi: 'Perusteet & tyyli', en: 'Fundamentals & styling' },
+              { name: 'JavaScript', fi: 'Frontend logiikka', en: 'Frontend logic' },
+              { name: 'TypeScript', fi: 'Tyyppiturvallinen JS', en: 'Type-safe JavaScript' },
+              { name: 'React', fi: 'Komponenttikehitys', en: 'Component development' },
+              { name: 'Next.js', fi: 'Fullstack React', en: 'Fullstack React' },
+              { name: 'Python', fi: 'Scripting & data', en: 'Scripting & data' },
+              { name: 'FastAPI', fi: 'REST API -kehitys', en: 'REST API development' },
+              { name: 'SQL / PostgreSQL', fi: 'Tietokantakehitys', en: 'Database development' },
+              { name: 'WordPress', fi: 'Sivustokehitys', en: 'Site development' },
+              { name: 'PHP', fi: 'WordPress-kehitys', en: 'WordPress development' },
+              { name: 'Git', fi: 'Versionhallinta', en: 'Version control' },
+              { name: 'Azure', fi: 'Pilvipalvelut', en: 'Cloud services' },
+    ].map((s, i) => (
+       <div className="skill-item" key={i}>
+    <div className="skill-name">{s.name}</div>
+   <div className="skill-level" data-fi={s.fi} data-en={s.en}>{s.fi}</div>
+  </div>
+))}
+
         </div>
       </section>
 

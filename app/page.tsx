@@ -115,10 +115,11 @@ export default function Home() {
           </h1>
           <p
             className="hero-desc"
-            data-fi="Tietojenkäsittelyn tradenomiopiskelija Savonia AMK:sta. Rakennan web-sovelluksia ja opin jatkuvasti uutta – tähtäimessä full stack -kehitys."
-            data-en="Business IT student at Savonia University of Applied Sciences. I build web applications and keep learning – aiming for full stack development."
+            data-fi='Olen kiinnostunut erityisesti <span class="about-highlight">full stack -kehityksestä</span> ja tekoälysovelluksista. Rakennan jatkuvasti uutta ja opin tekemällä. Haluan rakentaa asioita jotka ratkaisevat oikeita ongelmia.'
+            data-en='I am particularly interested in <span class="about-highlight">full stack development</span> and AI applications. I keep building and learning by doing. I want to build things that solve real problems.'  
           >
-            Tietojenkäsittelyn tradenomiopiskelija Savonia AMK:sta. Rakennan web-sovelluksia ja opin jatkuvasti uutta – tähtäimessä full stack -kehitys.
+            Olen kiinnostunut erityisesti{' '}
+            <span className="about-highlight">full stack -kehityksestä</span>{' '} ja tekoälysovelluksista. Rakennan jatkuvasti uutta ja opin tekemällä. Haluan rakentaa asioita jotka ratkaisevat oikeita ongelmia.
           </p>
           <div className="hero-cta">
             <a href="#projects" className="btn-primary" data-fi="Katso projektit" data-en="View projects">

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Full stack -kehittäjä Seinäjoelta. React, TypeScript, Next.js, Python, FastAPI. Avoin uusille mahdollisuuksille.',
   metadataBase: new URL('https://jesperkarna.fi'),
   openGraph: {
-    title: 'Jesper Kärnä – Frontend Developer, Seinäjoki',
+    title: 'Jesper Kärnä – Full Stack Developer, Seinäjoki',
     description: 'Full stack -kehittäjä Seinäjoelta. React, TypeScript, Next.js, Python, FastAPI.',
     url: 'https://jesperkarna.fi',
     siteName: 'Jesper Kärnä',

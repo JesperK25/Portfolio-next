@@ -315,13 +315,34 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="project-card project-coming">
-            <span className="coming-badge" data-fi="Tulossa" data-en="Coming soon">Tulossa</span>
-            <span className="project-tag">–</span>
-            <h3 className="project-title" data-fi="Projekti #3" data-en="Project #3">Projekti #3</h3>
-            <p className="project-desc" data-fi="Lisätään pian..." data-en="Coming soon...">
-              Lisätään pian...
+          <div className="project-card">
+            <span className="project-tag">Shopify · Liquid · Custom Theme</span>
+            <h3 className="project-title">Sting Rocko</h3>
+            <p
+              className="project-desc"
+              data-fi="Täysin itse rakennettu Shopify-teema suomalaiselle käsintehdyille vaatteille. Custom Liquid-templatet, FI/EN-kielivalinta, Mailchimp-integraatio ja drop teaser -osio."
+              data-en="Fully custom Shopify theme built from scratch for a Finnish handmade clothing brand. Custom Liquid templates, FI/EN language switcher, Mailchimp integration and drop teaser section."
+            >
+              Täysin itse rakennettu Shopify-teema suomalaiselle käsintehdyille vaatteille. Custom
+              Liquid-templatet, FI/EN-kielivalinta, Mailchimp-integraatio ja drop teaser -osio.
             </p>
+            <div className="project-stack">
+              {['Shopify', 'Liquid', 'CSS', 'JavaScript', 'Mailchimp'].map(t => (
+                <span className="stack-tag" key={t}>{t}</span>
+              ))}
+            </div>
+            <div style={{ marginTop: '1.5rem' }}>
+              <a
+                href="https://stingrocko.com"
+                target="_blank"
+                className="btn-primary"
+                style={{ fontSize: '0.7rem', padding: '0.6rem 1.2rem' }}
+                data-fi="Katso live"
+                data-en="View live"
+              >
+                Katso live
+              </a>
+            </div>
           </div>
 
         </div>

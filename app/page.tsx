@@ -280,11 +280,11 @@ export default function Home() {
             <h3 className="project-title">Sting Rocko</h3>
             <p
               className="project-desc"
-              data-fi="Täysin itse rakennettu Shopify-teema suomalaiselle käsintehdyille vaatteille. Custom Liquid-templatet, FI/EN-kielivalinta, Mailchimp-integraatio ja drop teaser -osio."
-              data-en="Fully custom Shopify theme built from scratch for a Finnish handmade clothing brand. Custom Liquid templates, FI/EN language switcher, Mailchimp integration and drop teaser section."
+              data-fi="Asiakastyö suomalaiselle käsityöbrandille. Koko Shopify-teema koodattiin nollasta: custom Liquid-templatet, FI/EN-käännökset, Mailchimp-integraatio ja drop teaser -osio."
+              data-en="Client project for a Finnish handcraft brand. The entire Shopify theme was coded from scratch: custom Liquid templates, FI/EN translations, Mailchimp integration and drop teaser section."
             >
-              Täysin itse rakennettu Shopify-teema suomalaiselle käsintehdyille vaatteille. Custom
-              Liquid-templatet, FI/EN-kielivalinta, Mailchimp-integraatio ja drop teaser -osio.
+              Asiakastyö suomalaiselle käsityöbrandille. Koko Shopify-teema koodattiin nollasta:
+              custom Liquid-templatet, FI/EN-käännökset, Mailchimp-integraatio ja drop teaser -osio.
             </p>
             <div className="project-stack">
               {['Shopify', 'Liquid', 'CSS', 'JavaScript', 'Mailchimp'].map(t => (

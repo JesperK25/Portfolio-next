@@ -246,46 +246,6 @@ export default function Home() {
         <div className="projects-grid fade-in">
 
           <div className="project-card">
-            <span className="project-tag">Full Stack · AI</span>
-            <h3 className="project-title" data-fi="Talousanalyysi" data-en="Finance Analyzer">
-              Talousanalyysi
-            </h3>
-            <p
-              className="project-desc"
-              data-fi="AI-pohjainen talousanalyysisovellus. Lataa tiliotteesi ja saat automaattiset kulukategoriat sekä säästövinkkejä Claude AI:lta."
-              data-en="AI-powered finance analyzer. Upload your bank statement and get automatic expense categories and saving tips from Claude AI."
-            >
-              AI-pohjainen talousanalyysisovellus. Lataa tiliotteesi ja saat automaattiset
-              kulukategoriat sekä säästövinkkejä Claude AI:lta.
-            </p>
-            <div className="project-stack">
-              {['Next.js', 'FastAPI', 'PostgreSQL', 'scikit-learn', 'Claude API', 'Railway', 'Vercel'].map(t => (
-                <span className="stack-tag" key={t}>{t}</span>
-              ))}
-            </div>
-            <div style={{ marginTop: '1.5rem', display: 'flex', gap: '0.75rem' }}>
-              <a
-                href="https://talousanalyysi-sovellus.vercel.app"
-                target="_blank"
-                className="btn-primary"
-                style={{ fontSize: '0.7rem', padding: '0.6rem 1.2rem' }}
-                data-fi="Katso live"
-                data-en="View live"
-              >
-                Katso live
-              </a>
-              <a
-                href="https://github.com/JesperK25/TalousanalyysiSovellus"
-                target="_blank"
-                className="btn-secondary"
-                style={{ fontSize: '0.7rem', padding: '0.6rem 1.2rem' }}
-              >
-                GitHub
-              </a>
-            </div>
-          </div>
-
-          <div className="project-card">
             <span className="project-tag">WordPress · Elementor</span>
             <h3 className="project-title">Kivikko Oy</h3>
             <p
